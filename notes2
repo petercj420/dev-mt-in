@@ -1,0 +1,8 @@
+### notes for angular review
+ - contriller
+ 	-creating a controller
+ 		-'ng-controller'
+	using service
+
+	you can use a cntroller twice creating two instances that dont share data.
+

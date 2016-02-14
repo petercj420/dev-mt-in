@@ -1,0 +1,42 @@
+notes
+##services 
+
+  what is a service 
+
+    universal component across the module
+
+what is a singleton 
+
+    universal component across the module
+
+what is a services purpose?
+    
+    data store, universal information, shared methods, bridge between controllers, business logic, ajax
+    service doesnt know anyting about the dom the dom $scope is what links to the dom
+
+
+how does its purpose differ from a controller
+
+    controller intreacts with the dom and thats it.
+
+
+how can tow controllers talk to each other> 
+
+    through a service
+
+hwo do services and controllers communicate?
+
+    injecting a service into a controller
+    the thiskeyword makes stuff on the sercice public.
+
+how can you create your own service?
+    angular.module("modulename").service("serviceName", function(){})
+
+what are some build in angular services?
+    they start with $
+
+    '$http', '$q' '$timeout', '$interval'
+  you can inject these into your controllers at other 
+
+service (factory) vs provider
+  providers arent the same thing
